@@ -5,10 +5,28 @@
   "projects": {
     "vaccine-app": {
       "projectType": "application",
-      "schematics": {},
+      "schematics": {
+        "@schematics/angular:component": {
+          "style": "scss"
+        },
+        "@schematics/angular:application": {
+          "strict": true
+        }
+      },
       "root": "",
       "sourceRoot": "src",
       "prefix": "app",
+      "i18n": {
+        "sourceLocale": "fr-CA",
+        "locales": {
+          "fr-CA" : {
+            "translation": "src/locale/elements.fr.xlf"
+          },
+          "en-CA" : {
+            "translation": "src/locale/elements.en.xlf"
+          }
+        }
+      },
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
@@ -24,9 +42,14 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "node_modules/bootstrap/dist/css/bootstrap.min.css",
+              "src/styles.scss"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/bootstrap/dist/js/bootstrap.bundle.min.js",
+              "node_modules/jquery/dist/jquery.min.js"
+            ],
+            "localize": true
           },
           "configurations": {
             "production": {
@@ -55,13 +78,24 @@
                   "maximumError": "10kb"
                 }
               ]
+            },
+            "fr-CA" : {
+              "localize": ["fr-CA"]
+            },
+            "en-CA" :{
+              "localize": ["en-CA"]
             }
           }
         },
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "vaccine-app:build"
+            "fr-CA" : {
+              "browserTarget": "vaccine-app:build:fr-CA"
+            },
+            "en-CA" : {
+              "browserTarget": "vaccine-app:build:en-CA"
+            }
           },
           "configurations": {
             "production": {
