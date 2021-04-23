@@ -1,0 +1,21 @@
+<div class="container">
+  <div class="row justify-content-center">
+      <h1 i18n>Vaccin</h1>
+  </div>
+
+  <div class="row">
+    <form method="post" action="/vaccine">
+      <label for="nomid">Nom: </label>
+      <input type="text" name="nom" id="nomid" pattern="([A-z]{1,25})" required="required"><br>
+      <label for="prenomid">Prénom: </label>
+      <input type="text" name="prenom" id="prenomid" pattern="([A-z]{1,25}" required="required"><br>
+      <label for = "telid">Téléphone:</label>
+      <input type = "tel" name = "tel" id="telid" pattern="((0[1-9])|([1-9][0-9]))[0-9]{8}" required="required"><br>
+      <label for="courrielid">Courriel: </label>
+      <input type = "email" name = "email" id = "courrielid" required="required"><br>
+
+      <button type="reset" value="Annuler">Annuler</button>
+      <button type="submit" value="Envoyer">Envoyer</button>
+    </form>
+  </div>
+</div>
