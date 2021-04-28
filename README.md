@@ -2,6 +2,19 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.7.
 
+## Installation required
+
+In order to make the application run, [Angular CLI](https://github.com/angular/angular-cli) and [Nodejs](https://nodejs.org) must be installed.
+
+## Preparation
+
+Before running the application, install the following modules: 
+
+1. Run the command `npm install`
+2. Bootstrap and jQuery: `npm install --save bootstrap jquery`
+3. Ng-Bootstrap : `npm install --save @ng-bootstrap/ng-bootstrap`
+
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
