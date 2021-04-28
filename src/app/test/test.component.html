@@ -1,1 +1,51 @@
-<p>test works!</p>
+<div class="container">
+  <div class="row">
+    <h1 i18n="Resultat par location | Titre de niveau 1">Résultat des tests par territoire</h1>
+  </div>
+
+  <div class="row">
+    <input  (input)="dataSource.filter=$event.target.value">
+    <table mat-table [dataSource]="dataSource" matSort >
+      <ng-container i18n-matColumnDef matColumnDef="localite">
+        <th mat-header-cell *matHeaderCellDef i18n="Endroit | En-tete de table" mat-sort-header>Localité</th>
+        <td mat-cell *matCellDef="let resul">{{resul.localite}}</td>
+      </ng-container>
+
+      <ng-container i18n-matColumnDef matColumnDef="total">
+        <th mat-header-cell *matHeaderCellDef i18n="Somme | En-tete de table" mat-sort-header>Total</th>
+        <td mat-cell *matCellDef="let resul">{{resul.total}}</td>
+      </ng-container>
+
+      <ng-container i18n-matColumnDef matColumnDef="enfant">
+        <th mat-header-cell *matHeaderCellDef i18n="Groupe d'age | En-tete de table" mat-sort-header>Enfant</th>
+        <td mat-cell *matCellDef="let resul">{{resul.enfant}}</td>
+      </ng-container>
+
+      <ng-container i18n-matColumnDef matColumnDef="adulte">
+        <th mat-header-cell *matHeaderCellDef i18n="Groupe d'age | En-tete de table" mat-sort-header>Adulte</th>
+        <td mat-cell *matCellDef="let resul">{{resul.adulte}}</td>
+      </ng-container>
+
+      <ng-container i18n-matColumnDef matColumnDef="aine">
+        <th mat-header-cell *matHeaderCellDef i18n="Groupe d'age | En-tete de table" mat-sort-header>Ainé</th>
+        <td mat-cell *matCellDef="let resul">{{resul.aine}}</td>
+      </ng-container>
+
+      <tr mat-header-row *matHeaderRowDef="columnsToDisplay"></tr>
+      <tr mat-row *matRowDef="let myRowData; columns: columnsToDisplay"></tr>
+    </table>
+    <mat-paginator [pageSizeOptions]="[2, 5, 15]" showFirstLastButtons></mat-paginator>
+  </div>
+  <br>
+  <br>
+
+  <div class="row">
+    <h3 i18n> {localNUM, plural, =1 {Localité} other {Localités}} ayant le nombre le plus élevé de cas d'enfants :</h3>
+    <br>
+    <ul>
+      <li *ngFor="let local of getTopEnfants()">
+        {{local.localite}}: {{local.enfant}}
+      </li>
+    </ul>
+  </div>
+</div>

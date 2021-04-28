@@ -1,0 +1,837 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="fr-CA" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="ngb.alert.close" datatype="html">
+        <source>Close</source>
+        <target>Fermer</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/@ng-bootstrap/ng-bootstrap/src/alert/alert.ts</context>
+          <context context-type="linenumber">58,61</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.carousel.slide-number" datatype="html">
+        <source> Slide <x id="INTERPOLATION" equiv-text="private _pauseO"/> of <x id="INTERPOLATION_1" equiv-text="Subject(false);"/> </source>
+        <target> Image <x id="INTERPOLATION" equiv-text="private _pauseO"/> de <x id="INTERPOLATION_1" equiv-text="Subject(false);"/> </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/@ng-bootstrap/ng-bootstrap/src/carousel/carousel.ts</context>
+          <context context-type="linenumber">114,118</context>
+        </context-group>
+        <note priority="1" from="description">Currently selected slide number read by screen reader</note>
+      </trans-unit>
+      <trans-unit id="ngb.carousel.previous" datatype="html">
+        <source>Previous</source>
+        <target>Précédent</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/@ng-bootstrap/ng-bootstrap/src/carousel/carousel.ts</context>
+          <context context-type="linenumber">132,133</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.carousel.next" datatype="html">
+        <source>Next</source>
+        <target>Suivant</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/@ng-bootstrap/ng-bootstrap/src/carousel/carousel.ts</context>
+          <context context-type="linenumber">147,151</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.datepicker.select-month" datatype="html">
+        <source>Select month</source>
+        <target>Sélectionner mois</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/@ng-bootstrap/ng-bootstrap/src/datepicker/datepicker-navigation-select.ts</context>
+          <context context-type="linenumber">43,47</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/@ng-bootstrap/ng-bootstrap/src/datepicker/datepicker-navigation-select.ts</context>
+          <context context-type="linenumber">49,50</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.datepicker.select-year" datatype="html">
+        <source>Select year</source>
+        <target>Sélectionner année</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/@ng-bootstrap/ng-bootstrap/src/datepicker/datepicker-navigation-select.ts</context>
+          <context context-type="linenumber">59,63</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/@ng-bootstrap/ng-bootstrap/src/datepicker/datepicker-navigation-select.ts</context>
+          <context context-type="linenumber">72,74</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.datepicker.previous-month" datatype="html">
+        <source>Previous month</source>
+        <target>Mois précédent</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/@ng-bootstrap/ng-bootstrap/src/datepicker/datepicker-navigation.ts</context>
+          <context context-type="linenumber">24,27</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/@ng-bootstrap/ng-bootstrap/src/datepicker/datepicker-navigation.ts</context>
+          <context context-type="linenumber">34,35</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.datepicker.next-month" datatype="html">
+        <source>Next month</source>
+        <target>Mois suivant</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/@ng-bootstrap/ng-bootstrap/src/datepicker/datepicker-navigation.ts</context>
+          <context context-type="linenumber">44,48</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/@ng-bootstrap/ng-bootstrap/src/datepicker/datepicker-navigation.ts</context>
+          <context context-type="linenumber">57,61</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.pagination.first" datatype="html">
+        <source>««</source>
+        <target>««</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/@ng-bootstrap/ng-bootstrap/src/pagination/pagination.ts</context>
+          <context context-type="linenumber">182</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.pagination.previous" datatype="html">
+        <source>«</source>
+        <target>«</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/@ng-bootstrap/ng-bootstrap/src/pagination/pagination.ts</context>
+          <context context-type="linenumber">186,190</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.pagination.next" datatype="html">
+        <source>»</source>
+        <target>»</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/@ng-bootstrap/ng-bootstrap/src/pagination/pagination.ts</context>
+          <context context-type="linenumber">194,195</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.pagination.last" datatype="html">
+        <source>»»</source>
+        <target>»»</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/@ng-bootstrap/ng-bootstrap/src/pagination/pagination.ts</context>
+          <context context-type="linenumber">201,204</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.pagination.first-aria" datatype="html">
+        <source>First</source>
+        <target>Premier</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/@ng-bootstrap/ng-bootstrap/src/pagination/pagination.ts</context>
+          <context context-type="linenumber">208,209</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.pagination.previous-aria" datatype="html">
+        <source>Previous</source>
+        <target>Précédent</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/@ng-bootstrap/ng-bootstrap/src/pagination/pagination.ts</context>
+          <context context-type="linenumber">215,216</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.pagination.next-aria" datatype="html">
+        <source>Next</source>
+        <target>Suivant</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/@ng-bootstrap/ng-bootstrap/src/pagination/pagination.ts</context>
+          <context context-type="linenumber">225,228</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.pagination.last-aria" datatype="html">
+        <source>Last</source>
+        <target>Dernier</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/@ng-bootstrap/ng-bootstrap/src/pagination/pagination.ts</context>
+          <context context-type="linenumber">232,233</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.progressbar.value" datatype="html">
+        <source><x id="INTERPOLATION" equiv-text="turn this._max;"/></source>
+        <target><x id="INTERPOLATION" equiv-text="turn this._max;"/></target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/@ng-bootstrap/ng-bootstrap/src/progressbar/progressbar.ts</context>
+          <context context-type="linenumber">31,38</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.HH" datatype="html">
+        <source>HH</source>
+        <target>HH</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/@ng-bootstrap/ng-bootstrap/src/timepicker/timepicker.ts</context>
+          <context context-type="linenumber">40,41</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.hours" datatype="html">
+        <source>Hours</source>
+        <target>Heures</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/@ng-bootstrap/ng-bootstrap/src/timepicker/timepicker.ts</context>
+          <context context-type="linenumber">45,46</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.MM" datatype="html">
+        <source>MM</source>
+        <target>MM</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/@ng-bootstrap/ng-bootstrap/src/timepicker/timepicker.ts</context>
+          <context context-type="linenumber">52,53</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.minutes" datatype="html">
+        <source>Minutes</source>
+        <target>Minutes</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/@ng-bootstrap/ng-bootstrap/src/timepicker/timepicker.ts</context>
+          <context context-type="linenumber">57,58</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.increment-hours" datatype="html">
+        <source>Increment hours</source>
+        <target>Incrémenter les heures</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/@ng-bootstrap/ng-bootstrap/src/timepicker/timepicker.ts</context>
+          <context context-type="linenumber">62,63</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.decrement-hours" datatype="html">
+        <source>Decrement hours</source>
+        <target>Décrémenter les heures</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/@ng-bootstrap/ng-bootstrap/src/timepicker/timepicker.ts</context>
+          <context context-type="linenumber">67,68</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.increment-minutes" datatype="html">
+        <source>Increment minutes</source>
+        <target>Incémenter les minutes</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/@ng-bootstrap/ng-bootstrap/src/timepicker/timepicker.ts</context>
+          <context context-type="linenumber">75,76</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.decrement-minutes" datatype="html">
+        <source>Decrement minutes</source>
+        <target>Décrémenter les minutes</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/@ng-bootstrap/ng-bootstrap/src/timepicker/timepicker.ts</context>
+          <context context-type="linenumber">82</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.SS" datatype="html">
+        <source>SS</source>
+        <target>SS</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/@ng-bootstrap/ng-bootstrap/src/timepicker/timepicker.ts</context>
+          <context context-type="linenumber">85,87</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.seconds" datatype="html">
+        <source>Seconds</source>
+        <target>Secondes</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/@ng-bootstrap/ng-bootstrap/src/timepicker/timepicker.ts</context>
+          <context context-type="linenumber">90,92</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.increment-seconds" datatype="html">
+        <source>Increment seconds</source>
+        <target>Incrémenter les secondes</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/@ng-bootstrap/ng-bootstrap/src/timepicker/timepicker.ts</context>
+          <context context-type="linenumber">98,99</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.decrement-seconds" datatype="html">
+        <source>Decrement seconds</source>
+        <target>Décrémenter les secondes</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/@ng-bootstrap/ng-bootstrap/src/timepicker/timepicker.ts</context>
+          <context context-type="linenumber">105,109</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.AM" datatype="html">
+        <source><x id="INTERPOLATION" equiv-text="Step: number;"/></source>
+        <target><x id="INTERPOLATION" equiv-text="Step: number;"/></target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/@ng-bootstrap/ng-bootstrap/src/timepicker/timepicker.ts</context>
+          <context context-type="linenumber">116,123</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.PM" datatype="html">
+        <source><x id="INTERPOLATION" equiv-text="sible.
+   */"/></source>
+   <target><x id="INTERPOLATION" equiv-text="sible.
+      */"/></target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/@ng-bootstrap/ng-bootstrap/src/timepicker/timepicker.ts</context>
+          <context context-type="linenumber">125,130</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.toast.close-aria" datatype="html">
+        <source>Close</source>
+        <target>Fermer</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/@ng-bootstrap/ng-bootstrap/src/toast/toast.ts</context>
+          <context context-type="linenumber">76,85</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7145738037156488865" datatype="html">
+        <source>Maladie</source>
+        <target>Maladie</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/acceuil/acceuil.component.html</context>
+          <context context-type="linenumber">6</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">6</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2331839851519329986" datatype="html">
+        <source>Maladie</source>
+        <target>Maladie</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/acceuil/acceuil.component.html</context>
+          <context context-type="linenumber">9</context>
+        </context-group>
+        <note priority="1" from="description"> Lien</note>
+        <note priority="1" from="meaning">Sante </note>
+      </trans-unit>
+      <trans-unit id="8800695751673407427" datatype="html">
+        <source>Vaccin</source>
+        <target>Vaccin</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/acceuil/acceuil.component.html</context>
+          <context context-type="linenumber">15</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">7</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5641755280553167110" datatype="html">
+        <source>Vaccin</source>
+        <target>Vaccin</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/acceuil/acceuil.component.html</context>
+          <context context-type="linenumber">18</context>
+        </context-group>
+        <note priority="1" from="description"> Lien</note>
+        <note priority="1" from="meaning">Sante </note>
+      </trans-unit>
+      <trans-unit id="810591049680793382" datatype="html">
+        <source>Prevention</source>
+        <target>Prévention</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/acceuil/acceuil.component.html</context>
+          <context context-type="linenumber">24</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">8</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8108289950277490637" datatype="html">
+        <source>Prevention</source>
+        <target>Prévention</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/acceuil/acceuil.component.html</context>
+          <context context-type="linenumber">27</context>
+        </context-group>
+        <note priority="1" from="description"> Lien</note>
+        <note priority="1" from="meaning">Sante </note>
+      </trans-unit>
+      <trans-unit id="6563391987554512024" datatype="html">
+        <source>Test</source>
+        <target>Test</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/acceuil/acceuil.component.html</context>
+          <context context-type="linenumber">33</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">9</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1167147752315376304" datatype="html">
+        <source>Test</source>
+        <target>Test</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/acceuil/acceuil.component.html</context>
+          <context context-type="linenumber">36</context>
+        </context-group>
+        <note priority="1" from="description"> Lien</note>
+        <note priority="1" from="meaning">Sante </note>
+      </trans-unit>
+      <trans-unit id="926306493113104898" datatype="html">
+        <source>OMS</source>
+        <target>OMS</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/acceuil/acceuil.component.html</context>
+          <context context-type="linenumber">42</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">10</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4511671816529318937" datatype="html">
+        <source>https://www.who.int/fr</source>
+        <target>https://www.who.int/fr</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/acceuil/acceuil.component.html</context>
+          <context context-type="linenumber">45</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8339720837142113669" datatype="html">
+        <source>OMS</source>
+        <target>OMS</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/acceuil/acceuil.component.html</context>
+          <context context-type="linenumber">45</context>
+        </context-group>
+        <note priority="1" from="description"> Lien</note>
+        <note priority="1" from="meaning">Sante </note>
+      </trans-unit>
+      <trans-unit id="950243921845058935" datatype="html">
+        <source>Ministère de la Santé</source>
+        <target>Ministère de la Santé</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+        <note priority="1" from="description"> Span de la navbar</note>
+        <note priority="1" from="meaning">Nom de l&apos;organisme </note>
+      </trans-unit>
+      <trans-unit id="2332138031403108733" datatype="html">
+        <source>Acceuil</source>
+        <target>Acceuil</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+        <note priority="1" from="description">Page d&apos;acceuil</note>
+      </trans-unit>
+      <trans-unit id="8736590025685531961" datatype="html">
+        <source>/en</source>
+        <target>/en</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">11</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6450252959970433312" datatype="html">
+        <source>English</source>
+        <target>English</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">11</context>
+        </context-group>
+        <note priority="1" from="description"> Lien</note>
+        <note priority="1" from="meaning">Autre language </note>
+      </trans-unit>
+      <trans-unit id="817354401857524487" datatype="html">
+        <source> Site développé dans le cadre du cours </source>
+        <target> Site développé dans le cadre du cours </target>
+        <context-group purpose="location">
+            <context context-type="sourcefile">src/app/app.component.html</context>
+            <context context-type="linenumber">21</context>
+         </context-group>
+         <note priority="1" from="description"> Span du pied</note>
+         <note priority="1" from="meaning">Information du site </note>
+      </trans-unit>
+      <trans-unit id="2941181571303560323" datatype="html">
+        <source>http://www.etudier.uqam.ca/cours?sigle=INF3190</source>
+        <target>http://www.etudier.uqam.ca/cours?sigle=INF3190</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">22</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6848802739061024007" datatype="html">
+        <source>INF3190 </source>
+        <target>INF3190 </target>
+          <context-group purpose="location">
+            <context context-type="sourcefile">src/app/app.component.html</context>
+            <context context-type="linenumber">22</context>
+          </context-group>
+      </trans-unit>
+      <trans-unit id="7040658035247401531" datatype="html">
+        <source>à l&apos;</source>
+        <target>à l&apos;</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">22</context>
+        </context-group>
+        <note priority="1" from="description">Indication du lieu</note>
+      </trans-unit>
+      <trans-unit id="2152060184471172774" datatype="html">
+        <source>www.uqam.ca</source>
+        <target>www.uqam.ca</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">23</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8929897536948614587" datatype="html">
+        <source>Par: Marie-Pier Caron</source>
+        <target>Par: Marie-Pier Caron</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">24</context>
+        </context-group>
+        <note priority="1" from="description">Indication de l&apos;auteur</note>
+      </trans-unit>
+      <trans-unit id="1508254270565817700" datatype="html">
+        <source>La grippe H1N1</source>
+        <target>La grippe H1N1</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/maladie/maladie.component.html</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+        <note priority="1" from="description"> Titre de niveau 1</note>
+        <note priority="1" from="meaning">Nom de maladie </note>
+      </trans-unit>
+      <trans-unit id="1520446513960410609" datatype="html">
+        <source> La grippe H1N1 est une infection du système respiratoire qui occasionne symptômes similaires à ceux de la grippe saisonnière. Cette grippe est causée par diverses souche d&apos;influenza A. Une fois transmis, le virus se propage de manière similaire a la grippe saisonnière. Le virus est considéré comme très contagieux, la période de contagion débute 24h avant l&apos;arrivé des symptômes et se termine environ 7 jours après la déclaration de la maladie. </source>
+        <target> La grippe H1N1 est une infection du système respiratoire qui occasionne symptômes similaires à ceux de la grippe saisonnière. Cette grippe est causée par diverses souche d&apos;influenza A. Une fois transmis, le virus se propage de manière similaire a la grippe saisonnière. Le virus est considéré comme très contagieux, la période de contagion débute 24h avant l&apos;arrivé des symptômes et se termine environ 7 jours après la déclaration de la maladie. </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/maladie/maladie.component.html</context>
+          <context context-type="linenumber">9,16</context>
+        </context-group>
+        <note priority="1" from="description"> Paragraph</note>
+        <note priority="1" from="meaning">Description de la maladie </note>
+      </trans-unit>
+      <trans-unit id="7322320703151640765" datatype="html">
+        <source>Symptômes:</source>
+        <target>Symptômes:</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/maladie/maladie.component.html</context>
+          <context context-type="linenumber">18</context>
+        </context-group>
+        <note priority="1" from="description"> Titre de niveau 4</note>
+        <note priority="1" from="meaning">Maladie </note>
+      </trans-unit>
+      <trans-unit id="3387447624351968609" datatype="html">
+        <source>Courbature;</source>
+        <target>Courbature;</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/maladie/maladie.component.html</context>
+          <context context-type="linenumber">21</context>
+        </context-group>
+        <note priority="1" from="description"> Element de liste</note>
+        <note priority="1" from="meaning">Symptome </note>
+      </trans-unit>
+      <trans-unit id="3005771475915352256" datatype="html">
+        <source>Frissons;</source>
+        <target>Frissons;</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/maladie/maladie.component.html</context>
+          <context context-type="linenumber">22</context>
+        </context-group>
+        <note priority="1" from="description"> Element de liste</note>
+        <note priority="1" from="meaning">Symptome </note>
+      </trans-unit>
+      <trans-unit id="6401589928725053383" datatype="html">
+        <source>Toux;</source>
+        <target>Toux;</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/maladie/maladie.component.html</context>
+          <context context-type="linenumber">23</context>
+        </context-group>
+        <note priority="1" from="description"> Element de liste</note>
+        <note priority="1" from="meaning">Symptome </note>
+      </trans-unit>
+      <trans-unit id="3777527730830119400" datatype="html">
+        <source>Fatigue;</source>
+        <target>Fatigue;</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/maladie/maladie.component.html</context>
+          <context context-type="linenumber">24</context>
+        </context-group>
+        <note priority="1" from="description"> Element de liste</note>
+        <note priority="1" from="meaning">Symptome </note>
+      </trans-unit>
+      <trans-unit id="753815841372611119" datatype="html">
+        <source>Fièvre;</source>
+        <target>Fièvre;</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/maladie/maladie.component.html</context>
+          <context context-type="linenumber">25</context>
+        </context-group>
+        <note priority="1" from="description"> Element de liste</note>
+        <note priority="1" from="meaning">Symptome </note>
+      </trans-unit>
+      <trans-unit id="1033066188947509475" datatype="html">
+        <source>Maux de tête;</source>
+        <target>Maux de tête;</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/maladie/maladie.component.html</context>
+          <context context-type="linenumber">26</context>
+        </context-group>
+        <note priority="1" from="description"> Element de liste</note>
+        <note priority="1" from="meaning">Symptome </note>
+      </trans-unit>
+      <trans-unit id="8584946054764333553" datatype="html">
+        <source>Perte d&apos;appétit;</source>
+        <target>Perte d&apos;appétit;</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/maladie/maladie.component.html</context>
+          <context context-type="linenumber">27</context>
+        </context-group>
+        <note priority="1" from="description"> Element de liste</note>
+        <note priority="1" from="meaning">Symptome </note>
+      </trans-unit>
+      <trans-unit id="5069220712568310052" datatype="html">
+        <source>Mal de gorge</source>
+        <target>Mal de gorge</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/maladie/maladie.component.html</context>
+          <context context-type="linenumber">28</context>
+        </context-group>
+        <note priority="1" from="description"> Element de liste</note>
+        <note priority="1" from="meaning">Symptome </note>
+      </trans-unit>
+      <trans-unit id="2098524729198150179" datatype="html">
+        <source>https://www.youtube.com/watch?v=Hbyy5lRbGZw</source>
+        <target>https://www.youtube.com/watch?v=Hbyy5lRbGZw</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/maladie/maladie.component.html</context>
+          <context context-type="linenumber">38</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3807029060493402497" datatype="html">
+        <source> Iframe non supporté par le navigateur</source>
+        <target>Iframe non supporté par le navigateur</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/maladie/maladie.component.html</context>
+          <context context-type="linenumber">39</context>
+        </context-group>
+        <note priority="1" from="description"> Message Iframe</note>
+        <note priority="1" from="meaning">Message d&apos;erreur </note>
+      </trans-unit>
+      <trans-unit id="1134337419071637688" datatype="html">
+        <source> Pour les personnes atteintes, améliorez votre état et prévenez la propagation du virus en prenant les précautions suivantes : demeurez à la maison si vous avez contracté le virus, ne vous rendez pas au travail ni à l&apos;école, gardez au moins 1 mètre de distance entre les autres personnes, reposez-vous et buvez beaucoup de liquide, couvrez-vous la bouche et le nez avec un papier-mouchoir lorsque vous toussez ou éternuez, jetez-le ensuite à la poubelle et lavez-vous les mains régulièrement avec du savon et de l&apos;eau. Prenez soin de laver vos mains avec du savon pendant au moins 15 secondes. Utilisez un désinfectant pour les mains à base d&apos;alcool si vous n&apos;avez pas accès au savon ni à l&apos;eau. </source>
+        <target> Pour les personnes atteintes, améliorez votre état et prévenez la propagation du virus en prenant les précautions suivantes : demeurez à la maison si vous avez contracté le virus, ne vous rendez pas au travail ni à l&apos;école, gardez au moins 1 mètre de distance entre les autres personnes, reposez-vous et buvez beaucoup de liquide, couvrez-vous la bouche et le nez avec un papier-mouchoir lorsque vous toussez ou éternuez, jetez-le ensuite à la poubelle et lavez-vous les mains régulièrement avec du savon et de l&apos;eau. Prenez soin de laver vos mains avec du savon pendant au moins 15 secondes. Utilisez un désinfectant pour les mains à base d&apos;alcool si vous n&apos;avez pas accès au savon ni à l&apos;eau. </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/prevention/prevention.component.html</context>
+          <context context-type="linenumber">4,14</context>
+        </context-group>
+        <note priority="1" from="description"> Paragraphe</note>
+        <note priority="1" from="meaning">Methode de  prevention </note>
+      </trans-unit>
+      <trans-unit id="1779552786277618671" datatype="html">
+        <source>Distance</source>
+        <target>Distance</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/prevention/prevention.component.html</context>
+          <context context-type="linenumber">18</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8629813282923392786" datatype="html">
+        <source>Lavage de main</source>
+        <target>Lavage de main</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/prevention/prevention.component.html</context>
+          <context context-type="linenumber">21</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8443101470669509958" datatype="html">
+        <source>Toux dans le coude</source>
+        <target>Toux dans le coude</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/prevention/prevention.component.html</context>
+          <context context-type="linenumber">24</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8884546082005718213" datatype="html">
+        <source>Résultat des tests par territoire</source>
+        <target>Résultat des tests par territoire</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/test/test.component.html</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+        <note priority="1" from="description"> Titre de niveau 1</note>
+        <note priority="1" from="meaning">Resultat par location </note>
+      </trans-unit>
+      <trans-unit id="1970089903465953258" datatype="html">
+        <source>localite</source>
+        <target>localite</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/test/test.component.html</context>
+          <context context-type="linenumber">9</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2135721015223201644" datatype="html">
+        <source>Localité</source>
+        <target>Localité</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/test/test.component.html</context>
+          <context context-type="linenumber">10</context>
+        </context-group>
+        <note priority="1" from="description"> En-tete de table</note>
+        <note priority="1" from="meaning">Endroit </note>
+      </trans-unit>
+      <trans-unit id="6489441800790477240" datatype="html">
+        <source>total</source>
+        <target>total</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/test/test.component.html</context>
+          <context context-type="linenumber">14</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2776178499609694371" datatype="html">
+        <source>Total</source>
+        <target>Total</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/test/test.component.html</context>
+          <context context-type="linenumber">15</context>
+        </context-group>
+        <note priority="1" from="description"> En-tete de table</note>
+        <note priority="1" from="meaning">Somme </note>
+      </trans-unit>
+      <trans-unit id="7696607184962931507" datatype="html">
+        <source>enfant</source>
+        <target>enfant</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/test/test.component.html</context>
+          <context context-type="linenumber">19</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6649802377864124173" datatype="html">
+        <source>Enfant</source>
+        <target>Enfant</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/test/test.component.html</context>
+          <context context-type="linenumber">20</context>
+        </context-group>
+        <note priority="1" from="description"> En-tete de table</note>
+        <note priority="1" from="meaning">Groupe d&apos;age </note>
+      </trans-unit>
+      <trans-unit id="8882917629192519055" datatype="html">
+        <source>adulte</source>
+        <target>adulte</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/test/test.component.html</context>
+          <context context-type="linenumber">24</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5808941687922474610" datatype="html">
+        <source>Adulte</source>
+        <target>Adulte</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/test/test.component.html</context>
+          <context context-type="linenumber">25</context>
+        </context-group>
+        <note priority="1" from="description"> En-tete de table</note>
+        <note priority="1" from="meaning">Groupe d&apos;age </note>
+      </trans-unit>
+      <trans-unit id="4422865382718629844" datatype="html">
+        <source>aine</source>
+        <target>aine</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/test/test.component.html</context>
+          <context context-type="linenumber">29</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3702055766617534271" datatype="html">
+        <source>Ainé</source>
+        <target>Ainé</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/test/test.component.html</context>
+          <context context-type="linenumber">30</context>
+        </context-group>
+        <note priority="1" from="description"> En-tete de table</note>
+        <note priority="1" from="meaning">Groupe d&apos;age </note>
+      </trans-unit>
+      <trans-unit id="4952791859739443272" datatype="html">
+        <source>{VAR_PLURAL, plural, =1 {Localité} other {Localités}}</source>
+        <target>{VAR_PLURAL, plural, =1 {Localité} other {Localités}}</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/test/test.component.html</context>
+          <context context-type="linenumber">43</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8110652497417687107" datatype="html">
+        <source> <x id="ICU" equiv-text="{localNUM, plural, =1 {Localité} other {Localités}}"/> ayant le nombre le plus élevé de cas d&apos;enfants :</source>
+        <target> <x id="ICU" equiv-text="{localNUM, plural, =1 {Localité} other {Localités}}"/> ayant le nombre le plus élevé de cas d&apos;enfants :</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/test/test.component.html</context>
+          <context context-type="linenumber">43</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8991874607294102765" datatype="html">
+        <source>Vaccin : Prise de rendez-vous</source>
+        <target>Vaccin : Prise de rendez-vous</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/vaccin/vaccin.component.html</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+        <note priority="1" from="description"> Titre de niveau 1</note>
+        <note priority="1" from="meaning">Formulaire de rendez-vous </note>
+      </trans-unit>
+      <trans-unit id="7511140913620749308" datatype="html">
+        <source>Nom: </source>
+        <target>Nom: </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/vaccin/vaccin.component.html</context>
+          <context context-type="linenumber">8</context>
+        </context-group>
+        <note priority="1" from="description"> Etiquette de formulaire</note>
+        <note priority="1" from="meaning">Identification </note>
+      </trans-unit>
+      <trans-unit id="3404251070825549212" datatype="html">
+        <source>Prénom: </source>
+        <target>Prénom: </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/vaccin/vaccin.component.html</context>
+          <context context-type="linenumber">10</context>
+        </context-group>
+        <note priority="1" from="description"> Etiquette de formulaire</note>
+        <note priority="1" from="meaning">Identification </note>
+      </trans-unit>
+      <trans-unit id="4092168740224473660" datatype="html">
+        <source>Téléphone:</source>
+        <target>Téléphone:</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/vaccin/vaccin.component.html</context>
+          <context context-type="linenumber">12</context>
+        </context-group>
+        <note priority="1" from="description"> Etiquette de formulaire</note>
+        <note priority="1" from="meaning">Méthode de contact </note>
+      </trans-unit>
+      <trans-unit id="7495423100503248568" datatype="html">
+        <source>Courriel: </source>
+        <target>Courriel: </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/vaccin/vaccin.component.html</context>
+          <context context-type="linenumber">14</context>
+        </context-group>
+        <note priority="1" from="description"> Etiquette de formulaire</note>
+        <note priority="1" from="meaning">Méthode de contact </note>
+      </trans-unit>
+      <trans-unit id="2121537977443757749" datatype="html">
+        <source>Annuler</source>
+        <target>Annuler</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/vaccin/vaccin.component.html</context>
+          <context context-type="linenumber">17</context>
+        </context-group>
+        <note priority="1" from="description"> Bouton</note>
+        <note priority="1" from="meaning">Effacer </note>
+      </trans-unit>
+      <trans-unit id="5814491683292270867" datatype="html">
+        <source>Envoyer</source>
+        <target>Envoyer</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/vaccin/vaccin.component.html</context>
+          <context context-type="linenumber">18</context>
+        </context-group>
+        <note priority="1" from="description"> Bouton</note>
+        <note priority="1" from="meaning">Soumission </note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

@@ -1,24 +1,32 @@
 <div class="container-fluid">
-  <nav class="navbar navbar-expland-md navbar-light bg-light">
-    <span i18n="Span de la navbar | Nom de l'organisme">Ministère de la Santé</span>
+  <nav class="navbar navbar-expland-md navbar-light bg-dark text-white">
+    <span i18n="Nom de l'organisme | Span de la navbar">Ministère de la Santé</span>
     <ul>
       <li><a routerLink="/acceuil" i18n="Page d'acceuil">Acceuil</a></li>
       <li><a routerLink="/maladie" i18n>Maladie</a></li>
       <li><a routerLink="/vaccin" i18n>Vaccin</a></li>
-      <li><a routerLink="/prevention" i18n>Prevention</a></li>
-      <li><a routerLink="/test" i18n>Test</a></li>
-      <li><a href="https://who.int/fr" i18n>OMS</a></li>
-      <li><a i18n-routerLink routerLink="/en-CA">English</a></li>
+      <li><a routerLink="/prevention" i18n="Page sur les moyens de prévenir la maladie">Prevention</a></li>
+      <li><a routerLink="/test" i18n="Test de dépistage">Test</a></li>
+      <li><a href="https://who.int/fr" target="_blank" i18n>OMS</a></li>
+      <li><a i18n-routerLink routerLink="/en" i18n="Autre language | Lien">English</a></li>
     </ul>
   </nav>
+  <br>
 <router-outlet></router-outlet>
-<footer>
-  <p i18n>
-    Site développé dans le cadre du cours
-    <a i18n-href href="http://www.etudier.uqam.ca/cours?sigle=INF3190">INF3190</a> à l'
-    <a i18n-href href="www.uqam.ca">UQAM</a><br>
-    <a i18n-href href="mailto:caron.marie-pier.3@courrier.uqam.ca">Par: Marie-Pier Caron</a><br>
-  </p>
+  <br>
+<footer class="bg-dark text-center text-light">
+  <div class="container">
+    <div class="row">
+      <p>
+        <span i18n="Information du site | Span du pied"> Site développé dans le cadre du cours </span>
+          <a i18n-href href="http://www.etudier.uqam.ca/cours?sigle=INF3190" i18n>INF3190 </a><span i18n="Indication du lieu">à l'</span>
+          <a i18n-href href="www.uqam.ca">UQAM</a><br>
+          <a href="mailto:caron.marie-pier.3@courrier.uqam.ca" i18n="Indication de l'auteur">Par: Marie-Pier Caron</a><br>
+      </p>
+    </div>
+  </div>
 </footer>
+
+
 </div>
 

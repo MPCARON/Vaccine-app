@@ -1,21 +1,21 @@
-<div class="container">
+<div class="container-fluid">
   <div class="row justify-content-center">
-      <h1 i18n>Vaccin</h1>
+      <h1 i18n="Formulaire de rendez-vous | Titre de niveau 1">Vaccin : Prise de rendez-vous</h1>
   </div>
 
   <div class="row">
-    <form method="post" action="/vaccine">
-      <label for="nomid">Nom: </label>
-      <input type="text" name="nom" id="nomid" pattern="([A-z]{1,25})" required="required"><br>
-      <label for="prenomid">Prénom: </label>
-      <input type="text" name="prenom" id="prenomid" pattern="([A-z]{1,25}" required="required"><br>
-      <label for = "telid">Téléphone:</label>
-      <input type = "tel" name = "tel" id="telid" pattern="((0[1-9])|([1-9][0-9]))[0-9]{8}" required="required"><br>
-      <label for="courrielid">Courriel: </label>
-      <input type = "email" name = "email" id = "courrielid" required="required"><br>
+    <form>
+      <label for="nomid" i18n=" Identification | Etiquette de formulaire">Nom: </label>
+      <input type="text" id="nomid" [formControl]="nom"><br>
+      <label for="prenomid" i18n="Identification | Etiquette de formulaire">Prénom: </label>
+      <input type="text" id="prenomid" [formControl]="prenom"><br>
+      <label for = "telid" i18n="Méthode de contact | Etiquette de formulaire">Téléphone:</label>
+      <input type = "tel" id="telid" pattern="((0[1-9])|([1-9][0-9]))[0-9]{8}" [formControl]="telephone"><br>
+      <label for="courrielid" i18n="Méthode de contact | Etiquette de formulaire">Courriel: </label>
+      <input type = "email" id = "courrielid" [formControl]="courriel"><br>
 
-      <button type="reset" value="Annuler">Annuler</button>
-      <button type="submit" value="Envoyer">Envoyer</button>
+      <button type="reset" value="Annuler" i18n="Effacer | Bouton">Annuler</button>
+      <button type="submit" value="Envoyer" i18n="Soumission | Bouton" (click)="onSubmit()">Envoyer</button>
     </form>
   </div>
 </div>

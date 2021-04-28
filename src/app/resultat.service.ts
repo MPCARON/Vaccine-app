@@ -1,11 +1,11 @@
 import { Injectable } from '@angular/core';
-import {liste} from '../assets/data/resultat.json';
+import {resultats} from '../assets/data/resultat.json';
 
 @Injectable({
   providedIn: 'root'
 })
 export class ResultatService {
-  private resultat: any[] = liste;
+  private resultat: any[] = resultats;
   constructor() { }
 
   public getAll(): any[]{
@@ -13,9 +13,9 @@ export class ResultatService {
   }
 
   public findmax(): number{
-    let max: number = 0;
-    for(let result of this.resultat){
-      if(result.enfant > max) {
+    let max = 0;
+    for (let result of this.resultat){
+      if (result.enfant > max) {
         max = result.enfant;
       }
     }
@@ -24,14 +24,14 @@ export class ResultatService {
 
   public getTopEnfant(): any[]{
     let returnresult: any[] = [];
-    let max: number = this.findmax();
-    let i: number = 0;
-    for(let result of this.resultat){
-      if(result.enfant = max) {
-        returnresult[i] = result.localite;
-        i= i + 1;
+    let max = this.findmax();
+    let i = 0;
+    for (let result of this.resultat){
+      if (result.enfant === max) {
+        returnresult[i] = result;
+        i = i + 1;
       }
     }
-    return returnresult;
+    return(returnresult);
   }
 }

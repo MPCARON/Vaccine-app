@@ -19,11 +19,11 @@
       "i18n": {
         "sourceLocale": "fr-CA",
         "locales": {
-          "fr-CA" : {
-            "translation": "src/locale/elements.fr.xlf"
+          "fr" : {
+            "translation": "src/locale/messages.fr.xlf"
           },
-          "en-CA" : {
-            "translation": "src/locale/elements.en.xlf"
+          "en" : {
+            "translation": "src/locale/messages.en.xlf"
           }
         }
       },
@@ -37,19 +37,20 @@
             "polyfills": "src/polyfills.ts",
             "tsConfig": "tsconfig.app.json",
             "aot": true,
+            "localize": true,
             "assets": [
               "src/favicon.ico",
               "src/assets"
             ],
             "styles": [
               "node_modules/bootstrap/dist/css/bootstrap.min.css",
+              "node_modules/font-awesome/css/font-awesome.css",
               "src/styles.scss"
             ],
             "scripts": [
-              "node_modules/bootstrap/dist/js/bootstrap.bundle.min.js",
-              "node_modules/jquery/dist/jquery.min.js"
-            ],
-            "localize": true
+              "node_modules/jquery/dist/jquery.min.js",
+              "node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -79,27 +80,28 @@
                 }
               ]
             },
-            "fr-CA" : {
-              "localize": ["fr-CA"]
+            "fr" : {
+              "localize": ["fr"]
             },
-            "en-CA" :{
-              "localize": ["en-CA"]
+            "en" :{
+              "localize": ["en"]
             }
           }
         },
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "fr-CA" : {
-              "browserTarget": "vaccine-app:build:fr-CA"
-            },
-            "en-CA" : {
-              "browserTarget": "vaccine-app:build:en-CA"
-            }
+            "browserTarget": "vaccine-app:build"
           },
           "configurations": {
             "production": {
               "browserTarget": "vaccine-app:build:production"
+            },
+            "fr":  {
+              "browserTarget": "vaccine-app:build:fr"
+            },
+            "en": {
+              "browserTarget": "vaccine-app:build:en"
             }
           }
         },
@@ -121,6 +123,7 @@
               "src/assets"
             ],
             "styles": [
+              "./node_modules/@angular/material/prebuilt-themes/indigo-pink.css",
               "src/styles.css"
             ],
             "scripts": []

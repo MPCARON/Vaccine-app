@@ -1,4 +1,4 @@
-[
+{"resultats":[
   {"localite": "Montreal", "total": "300", "enfant": "50",
     "adulte": "200", "aine": "50"},
   {"localite": "Longeuil", "total": "200", "enfant": "30",
@@ -29,4 +29,4 @@
     "adulte": "75", "aine": "30"},
   {"localite": "Tremblant", "total": "75", "enfant": "6",
     "adulte": "62", "aine": "7"}
-]
+]}

@@ -1,54 +1,48 @@
-<div id="siteCarousel" class="carousel slide" data-ride="carousel">
-  <ul class="carousel-indicators">
-    <li data-target="#siteCarousel" data-slide-to="0" class="active"></li>
-    <li data-target="#siteCarousel" data-slide-to="1"></li>
-    <li data-target="#siteCarousel" data-slide-to="2"></li>
-    <li data-target="#siteCarousel" data-slide-to="3"></li>
-  </ul>
-
-  <div class="carousel-inner">
-
-    <div class="carousel-item active">
-      <img class="img-fluid mx-auto d-block" src="assets/images" i18n-alt alt="Maladie">
-      <div class= "carousel-caption">
-        <h5><a i18n-href href="/maladie" i18n>Maladie</a></h5>
-      </div>
+<ngb-carousel
+  [showNavigationArrows]="true"
+  [activeId]="'firstSlide'">
+  <ng-template ngbSlide id="firstSlide">
+    <div class="img-wrapper h-25">
+      <img src="assets/images/cold.jpg" i18n-alt alt="Maladie">
     </div>
-
-    <div class="carousel-item">
-      <img class="img-fluid mx-auto d-block" src="assets/images" i18n-alt alt="Vaccin">
-      <div class= "carousel-caption">
-        <h5><a i18n-href href="/vaccin" i18n>Vaccin</a></h5>
-      </div>
+    <div class="carousel-caption">
+      <h5><a routerLink="/maladie" i18n="Sante | Lien ">Maladie</a></h5>
     </div>
+  </ng-template>
 
-    <div class="carousel-item">
-      <img class="img-fluid mx-auto d-block" src="assets/images" i18n-alt alt="Prevention">
-      <div class="carousel-caption">
-        <h5><a i18n-href href="/prevention" i18n>Prevention</a></h5>
-      </div>
+  <ng-template ngbSlide id="secondSlide">
+    <div class="img-wrapper h-25">
+      <img src="assets/images/vaccine.jpg" i18n-alt alt="Vaccin">
     </div>
-
-    <div class="carousel-item">
-      <img class="img-fluid mx-auto d-block" src="assets/images" i18n-alt alt="Test">
-      <div class="carousel-caption">
-        <h5><a i18n-href href="/test" i18n>Test</a></h5>
-      </div>
+    <div class="carousel-caption">
+      <h5><a routerLink="/vaccin" i18n="Sante | Lien ">Vaccin</a></h5>
     </div>
+  </ng-template>
 
-    <div class="carousel-item">
-      <img class="img-fluid mx-auto d-block" src="assets/images" i18n-alt alt="OMS">
-      <div class="carousel-caption">
-        <h5><a i18n-href href="https:wwww.who.int/fr" i18n>Test</a></h5>
-      </div>
+  <ng-template ngbSlide id="thirdSlide">
+    <div class="img-wrapper h-25">
+      <img src="assets/images/prevention.jpg" i18n-alt alt="Prevention">
     </div>
+    <div class="carousel-caption">
+      <h5><a routerLink="/prevention" i18n="Sante | Lien ">Prevention</a></h5>
+    </div>
+  </ng-template>
 
-  </div>
+  <ng-template ngbSlide id="fourthSlide">
+    <div class="img-wrapper h-25">
+      <img src="assets/images/test.jpg" i18n-alt alt="Test">
+    </div>
+    <div class="carousel-caption">
+      <h5><a routerLink="/test" i18n="Sante | Lien ">Test</a></h5>
+    </div>
+  </ng-template>
 
-  <a class="carousel-control-prev" href="#siteCarousel" data-slide="prev">
-    <span class="carousel-control-prev-icon"></span>
-  </a>
-  <a class="carousel-control-next" href="#siteCarousel" data-slide="next">
-    <span class="carousel-control-next-icon"></span>
-  </a>
-</div>
+  <ng-template ngbSlide id="fifthSlide">
+    <div class="img-wrapper h-25">
+      <img src="assets/images/OMS.jpg" i18n-alt alt="OMS">
+    </div>
+    <div class="carousel-caption">
+      <h5><a i18n-href href="https://www.who.int/fr" target="_blank" i18n="Sante | Lien ">OMS</a></h5>
+    </div>
+  </ng-template>
+</ngb-carousel>
